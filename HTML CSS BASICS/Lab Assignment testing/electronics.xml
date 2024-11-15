@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<electronics>
+    <item>
+        <name>Smartphone</name>
+        <brand>Apple</brand>
+        <price>1000</price>
+    </item>
+    <item>
+        <name>Laptop</name>
+        <brand>HP</brand>
+        <price>800</price>
+    </item>
+    <item>
+        <name>Smartwatch</name>
+        <brand>Samsung</brand>
+        <price>300</price>
+    </item>
+    <!-- Add more electronic items as needed -->
+</electronics>

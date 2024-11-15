@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Complex Form</h2>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="Name">Name:</label>
+            <input type="text" name="Name" id="Name">
+            <label for="Email">Email:</label>
+            <input type="text" name="Email" id="Email">
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone">
+            <label for="DOB">Date of Birth </label>
+            <input type="date" name="DOB" id="DOB">
+            <span>Gender</span>
+            <label for="Male">Male</label>
+            <input type="radio" name="Male" id="Male">
+            <label for="FeMale">Female</label>
+            <input type="radio" name="FeMale" id="FeMale">
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="unitedstates">United States</option>
+                <option value="Australia">Australia</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Address</legend>
+            <label for="Street">Street</label>
+            <input type="text" name="Street" id="Street">
+            <label for="City">City</label>
+            <input type="text" name="City" id="City">
+            <label for="State">State</label>
+            <input type="text" name="State" id="State">
+            <label for="zipcode">Zip Code</label>
+            <input type="text" name="zipcode" id="zipcode">
+        </fieldset>
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="AdditionalComments">Comments</label>
+            <textarea name="AdditionalComments:" id="AdditionalComments" cols="30" rows="10"></textarea>
+            <label for="Fulltime">I agree to the terms of service</label>
+            <input type="radio" name="radio" id="Fulltime">
+        </fieldset>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

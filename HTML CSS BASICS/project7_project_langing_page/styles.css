@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #eee;
+}
+#page-wrapper{
+    position: relative;
+}
+header{
+    display: flex;
+    min-height: 75px;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    margin-top: 15px;
+    position: relative;
+    width: 100%;
+}
+#header-img{
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+}
+nav{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 0 50px;
+    width: 100%;
+    font-weight: 400;
+}
+li{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+}
+@media (max-width: 650px){
+nav {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+}}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 35vw;
+}
+@media (max-width: 650px){
+.section2{
+    margin-top: 120px;
+}}
+.section2{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+h2{
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+form{
+    display: block;
+}
+.section2 input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+.section2 input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #f1c40f;
+}
+.button {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 3px black solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+}
